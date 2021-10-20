@@ -10,16 +10,14 @@ To run the file please install docker and run the command docker-compose up whic
 	* `localhost:8000/api/investment` (GET)
 	* `localhost:8000/api/investment/1` (GET)
 	* `localhost:8000/api/investment` (POST)
-			* Body format: 
-		```
-		{"propertyId":1,"amountInvested":6, "customerEmail":"umeranjum17@gmail.com"}
-    ```
+	* Body format: 
+	`{"propertyId":1,"amountInvested":6, "customerEmail":"umeranjum17@gmail.com"}`
+    
 	* `localhost:8000/api/investment/1` (PUT)
-		* Body format: 
-		```
-		{"propertyId":1,"amountInvested":6, "customerEmail":"umeranjum17@gmail.com"}
-    ```
-	* `localhost:8000/api/investment/1` (DELETE)
+	* Body format: 
+	`{"propertyId":1,"amountInvested":6, "customerEmail":"umeranjum17@gmail.com"}`
+  
+	* localhost:8000/api/investment/1` (DELETE)
 
 ## Run the file using Docker
 * To run the file please install docker and run the command docker-compose up which will start the db instance do the migration and run the express server
