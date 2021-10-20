@@ -19,5 +19,5 @@ To run the file please install docker and run the command docker-compose up whic
   
 	* localhost:8000/api/investment/1` (DELETE)
 
-## Run the file using Docker
-* To run the file please install docker and run the command docker-compose up which will start the db instance do the migration and run the express server
+## Docker Config
+* The project is connected via docker and to run standalone would need configuration changes
