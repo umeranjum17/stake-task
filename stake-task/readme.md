@@ -1,6 +1,6 @@
 # Run the file using Docker
 
-To run the file please install docker and run the command docker-compose up which will start the db instance do the migration and run the express server
+To run the file please install docker and run the command "docker-compose up --build" which will start the db instance do the migration and run the express server
 
 ## See it in action
 

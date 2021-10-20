@@ -1,5 +1,5 @@
 const express = require('express');
-
+const cors=require('cors')
 const routes = {
 	investment: require('./routes/investment'),
 	property: require('./routes/property'),
@@ -9,6 +9,7 @@ const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cors())
 
 // We create a wrapper to workaround async errors not being transmitted correctly.
 function makeHandlerAwareOfAsyncErrors(handler) {
