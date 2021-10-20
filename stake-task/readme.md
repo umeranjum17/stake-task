@@ -1,10 +1,6 @@
-# Sequelize + Express
+# Run the file using Docker
 
-This is an example of how to setup Sequelize and Express together in a project for NodeJS 10 and above.
-
-Feel free to download this and use as a starting point for your new project!
-
-This example uses SQLite as a database engine, since it works directly with the filesystem and does not require extra configuration. Feel free to use another database engine - you just have to change the connection URL in the `Sequelize` constructor. [Learn more in the Sequelize docs](https://sequelize.org).
+To run the file please install docker and run the command docker-compose up which will start the db instance do the migration and run the express server
 
 ## See it in action
 
