@@ -10,7 +10,10 @@ To run the file please install docker and run the command docker-compose up whic
 	* `localhost:8000/api/investment` (GET)
 	* `localhost:8000/api/investment/1` (GET)
 	* `localhost:8000/api/investment` (POST)
-		* Body format: `{ username: 'john' }`
+			* Body format: 
+		```
+		{"propertyId":1,"amountInvested":6, "customerEmail":"umeranjum17@gmail.com"}
+    ```
 	* `localhost:8000/api/investment/1` (PUT)
 		* Body format: 
 		```
